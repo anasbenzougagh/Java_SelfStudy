@@ -1,0 +1,16 @@
+
+
+
+
+
+    <== : extend    <-- : implements    (I): interface  (C): Class
+    -------------------------------------------------------------------------------------------------------
+    Iterable(I)    <== Collection(I)    <==  List    (I) <--  (ArrayList-LinkedList-Vector-Stack) (C)
+                                        <==  Queue   (I) <--  PriorityQueue (C)
+                                                         <==  Deque (I)     <-- (LinkedList-ArrayDeque) (C)
+
+                                        <==  Set     (I) <--  (HashSet-LinkedHashSet) (C)
+                                                         <==  SortedSet(I)  <--  TreeSet (C)
+    -------------------------------------------------------------------------------------------------------
+    Map(I)        <== (HasTable-HashMap) (C)
+                  <== SortedMap          (I)          <-- TreeMap (C)

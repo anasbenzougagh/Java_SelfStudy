@@ -1,0 +1,8 @@
+    <== : extend    <-- : implements    (I): interface  (C): Class
+
+    iterable(I)    <== Collection(I)    <==  List    (I) <--  (ArrayList-LinkedList-Vector-Stack)(C)
+                                        <==  Queue   (I) <--  PriorityQueue (C)
+                                                         <==  Deque (I)     <-- (LinkedList-ArrayDeque)(C)
+
+                                        <==  Set     (I) <--  (HashSet-LinkedHashSet)(C)
+                                                         <==  SortedSet(I)  <--  TreeSet(C)
